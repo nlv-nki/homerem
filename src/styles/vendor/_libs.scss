@@ -1,2 +1,10 @@
-@import "import/normalize";
-@import "import/smart-grid";
+@import "import/_normalize";
+@import "import/reset";
+@import "import/_yui-reset";
+@import "import/_box-sizing";
+//@import "../../../node_modules/bootstrap/dist/css/bootstrap.min";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+// @import "import/_hamburgers-settings";
+// @import "import/_hamburger";
+// @import "import/swiper-bundle";
+

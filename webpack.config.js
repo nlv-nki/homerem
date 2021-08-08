@@ -15,6 +15,8 @@ module.exports = {
     
     entry: {
         main: "./src/js/index.js",
+        //index: "./src/js/import/pages/index.js",
+
     },
 
     output: {
