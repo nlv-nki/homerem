@@ -6,6 +6,8 @@
     ],
     "rules": {
         "indentation": 4,
+    },
+
         "plugin/selector-bem-pattern": [
             {
                 "implicitComponents": true,
@@ -147,7 +149,7 @@
             "message": "Две точки с запятой подряд не должны быть"
         }],
 
-        "font-family-name-quotes": ["always-where-recommended", {
+        "font-family-name-quotes": ["always-where-required", {
             "message": "Название шрифта следует брать в кавычки"
         }],
         "font-family-no-duplicate-names": [true, {
@@ -327,4 +329,3 @@
             "message": "Пробелы после «(» и перед «)» использовать нельзя"
         }]
     }
-}
