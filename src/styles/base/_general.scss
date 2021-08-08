@@ -3,10 +3,31 @@ h1, h2, h3, h4, h5, h6, ul {
     padding: 0;
 }
 
-.container {
-    @include container();
-    @include sm(max-width, rem(510));
-    @include md(max-width, rem(690));
-    @include lg(max-width, rem(930));
-    @include xl(max-width, rem(1110));
-}
+
+
+
+.bordered {
+    border: 1px solid #000;
+    }
+    .bg-blue {
+    background-color: #007ba7;
+    }
+    .bg-maroon {
+    background-color: #800000;
+    }
+    .bs .row>.col,
+    .bs .row>[class^="col-"] {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: #5a6268;
+    border: 1px solid #000;
+    color: #fff;
+    }
+
+// .container {
+//     @include container();
+//     @include sm(max-width, rem(510));
+//     @include md(max-width, rem(690));
+//     @include lg(max-width, rem(930));
+//     @include xl(max-width, rem(1110));
+// }

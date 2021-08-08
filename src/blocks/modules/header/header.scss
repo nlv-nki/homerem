@@ -1,0 +1,32 @@
+.header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    &__tel {
+        position: relative;
+        padding-left: 38px;
+        font-size: 20px;
+        line-height: 19px;
+        @media (max-width: 900px) {
+            font-size: 10px;
+        }
+    
+        span {
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #ee6a09;
+        }
+    }
+
+    &__tel::before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        background-image: url(../img/sprites/sprite.svg#tel);
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 31px;
+    }
+}
