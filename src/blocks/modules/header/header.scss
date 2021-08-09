@@ -1,16 +1,33 @@
 .header {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", serif;
     font-size: 14px;
     line-height: 16px;
+
+
+    &__callback {
+        @media (min-width: 768px) {
+            margin-top: 20px;
+            height: 100px;
+        }
+        @media (min-width: 1000px) {
+            margin-top: 0;
+            height: auto;
+        }
+    }
+
+
+    
+
     &__tel {
         position: relative;
         padding-left: 38px;
         font-size: 20px;
         line-height: 19px;
+
         @media (max-width: 900px) {
             font-size: 10px;
         }
-    
+
         span {
             font-size: 14px;
             line-height: 16px;

@@ -1,37 +1,12 @@
 <header class="header">
-    <div class="container-xl">
+    <div class="container-xl ">
         <div class="row mt-2 align-items-center">
             <div class="ccol-lg-auto col-3 col-md-2 order-md-1  order-2">
                 <img src="img/logo.webp" alt="logo">
             </div>
             <div class="col-lg-6 col-2  col-md-8 order-md-2  order-1">
-                <nav class="navbar navbar-expand-md navbar-light">
-                    <div class="container justify-content-md-center">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Переключатель навигации">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                            <ul class="navbar-nav  mb-2 mb-lg-0 main-nav-list ">
-                                <li class="main-nav-list__item nav-item"> <a class="nav-link"
-                                        href="#">Главная</a></li>
-                                <li class="main-nav-list__item nav-item"> <a class="nav-link" href="#">О
-                                        компании</a></li>
-                                <li class="main-nav-list__item nav-item"> <a class="nav-link" href="#">Цены</a>
-                                </li>
-                                <li class="main-nav-list__item nav-item"> <a class="nav-link"
-                                        href="#">Статьи</a></li>
-                                <li class="main-nav-list__item nav-item"> <a class="nav-link" href="#">Наши
-                                        работы</a></li>
-                                <li class="main-nav-list__item nav-item"> <a class="nav-link" href="#">Видео</a>
-                                </li>
-                                <li class="main-nav-list__item nav-item"> <a class="nav-link"
-                                        href="#">Контакты</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+                @@include("../main-nav/main-nav.html")
+
             </div>
             <div class="col-lg-auto col-3 col-md-2 order-4 order-xl-3 order-md-3">
                 <div class="header__text">
@@ -39,12 +14,19 @@
                     без выходных
                 </div>
             </div>
-            <div class="col-lg-auto col-4 col-md-3 order-3 order-md-3 order-xl-4">
+            <div class="col-lg-auto col-4 col-md-3 order-3 order-md-3 order-xl-4 header__callback">
                 <div class="header__tel">8-495-133-86-80<br>
                     <span>Заказать звонок</span>
                 </div>
             </div>
 
+
+            @@include("../sub-nav/sub-nav.html")
+
         </div>
+        <!-- <div class="row mt-2 align-items-center">
+            @@include("../sub-nav/sub-nav.html")
+        </div> -->
+
     </div>
 </header>
