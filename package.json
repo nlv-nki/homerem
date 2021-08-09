@@ -19,7 +19,7 @@
         "build:fonts": "gulp fonts --production",
         "build:favicons": "gulp favicons --production",
         "build:gzip": "gulp gzip --production",
-        "lint:styles": "stylelint \"src/**/*.scss\" --syntax=scss",
+        "lint:styles": "./node_modules/stylelint/bin/stylelint.js \"src/**/*.scss\" --syntax=scss --config ./.stylelintrc",
         "lint:styles --fix": "stylelint \"src/**/*.scss\" --syntax=scss --fix",
         "lint:scripts": "eslint --color ./src/blocks",
         "lint:scripts --fix": "eslint --fix --color ./src/blocks",
