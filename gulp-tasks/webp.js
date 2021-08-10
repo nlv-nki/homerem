@@ -29,5 +29,4 @@ gulp.task("webp", () => {
         }))
         .on("end", browsersync.reload);
 });
-log(paths.images.dist);
 
