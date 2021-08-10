@@ -19,6 +19,7 @@
         "build:fonts": "gulp fonts --production",
         "build:favicons": "gulp favicons --production",
         "build:gzip": "gulp gzip --production",
+        "build:woff": "gulp woff2",
         "lint:styles": "./node_modules/stylelint/bin/stylelint.js \"src/**/*.scss\" --syntax=scss --config ./.stylelintrc",
         "lint:styles --fix": "stylelint \"src/**/*.scss\" --syntax=scss --fix",
         "lint:scripts": "eslint --color ./src/blocks",
@@ -74,6 +75,7 @@
     "dependencies": {
         "@popperjs/core": "^2.9.3",
         "bootstrap": "^5.1.0",
+        "gulp-ttf2woff2": "^4.0.1",
         "jquery": "^3.6.0",
         "popper.js": "^1.16.1",
         "smart-grid": "^2.1.2"
