@@ -9,9 +9,11 @@ import newer from "gulp-newer";
 import debug from "gulp-debug";
 import browsersync from "browser-sync";
 import yargs from "yargs";
+var log = require("fancy-log");
 
 const argv = yargs.argv,
     production = !!argv.production;
+log(production);
 
 gulp.task("webp", () => {
     return gulp.src(paths.images.src)
@@ -27,3 +29,5 @@ gulp.task("webp", () => {
         }))
         .on("end", browsersync.reload);
 });
+log(paths.images.dist);
+
