@@ -1,0 +1,8 @@
+.section {
+    &__text {
+        font-size: 24px;
+    }
+    &__accent-text {
+        color: $accent-text-color;
+    }
+}
