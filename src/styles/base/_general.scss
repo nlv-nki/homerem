@@ -1,28 +1,40 @@
-h1, h2, h3, h4, h5, h6, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
     margin: 0;
     padding: 0;
 }
 
 
+body {
+    color: $text-color;
 
+}
 
 .bordered {
     border: 1px solid #000;
-    }
-    .bg-blue {
+}
+
+.bg-blue {
     background-color: #007ba7;
-    }
-    .bg-maroon {
+}
+
+.bg-maroon {
     background-color: #800000;
-    }
-    .bs .row>.col,
-    .bs .row>[class^="col-"] {
+}
+
+.bs .row>.col,
+.bs .row>[class^="col-"] {
     padding-top: .75rem;
     padding-bottom: .75rem;
     background-color: #5a6268;
     border: 1px solid #000;
     color: #fff;
-    }
+}
 
 // .container {
 //     @include container();
