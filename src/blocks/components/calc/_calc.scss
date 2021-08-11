@@ -1,0 +1,55 @@
+.calc {
+    margin-top: 46px;
+
+    &__wrapper {
+        background: #ffffff;
+        box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        padding: 30px 50px;
+    }
+
+    &__title {
+        font-family: "Montserrat-Bold", sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+        color: $text-color;
+    }
+
+    &__field-description {
+        font-family: "Roboto-Medium", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 1px;
+    }
+
+    &__form-submit {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #ee6a09;
+        display: inline-block;
+        max-width: 460px;
+        border-radius: 40px;
+        border: 0;
+        padding: 25px 0 !important;
+        font-family: "Roboto-Bold", sans-serif;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 35px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    &__footer-text {
+        font-family: "Roboto-Bold";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+        text-align: center;
+    }
+}
