@@ -1,0 +1,43 @@
+.promo {
+    background-image: url(../img/promo-bg.webp);
+    min-height: 777px;
+
+    &__title {
+        font-family: "Montserrat-Bold", sans-serif;
+        line-height: 59px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 48px;
+        color: $text-color;
+        margin-top: 55px;
+    }
+
+    &__sub-title {
+        color: #244081;
+        font-weight: 600;
+        line-height: 29px;
+        text-align: center;
+        margin-top: 29px;
+        font-size: 24px;
+    }
+
+    &__features-list {
+        margin-top: 72px;
+    }
+
+    &__features-item {
+        display: flex;
+        align-items: center;
+        max-width: 345px;
+        height: 100px;
+        padding: 27px 0 16px 27px;
+        background-image: url(/img/list-bg-promo.png);
+        background-repeat: no-repeat;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: $text-color;
+    }
+}
