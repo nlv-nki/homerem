@@ -49,6 +49,11 @@ const requireDir = require("require-dir"),
             dist: "./dist/fonts/",
             watch: "./src/fonts/**/*.{woff,woff2}"
         },
+        woff2: {
+            src: "./src/fonts/**/*.ttf",
+            dist: "./dist/fonts/",
+            watch: "./src/fonts/**/*.{ttf,eot}"
+        },
         favicons: {
             src: "./src/img/favicon/*.{jpg,jpeg,png,gif}",
             dist: "./dist/img/favicons/",
@@ -64,7 +69,7 @@ requireDir("./gulp-tasks/");
 export { paths };
 
 export const development = gulp.series("clean", "smart-grid",
-    gulp.parallel(["views", "styles", "scripts", "images", "webp", "sprites", "fonts", "favicons"]),
+    gulp.parallel(["views", "styles", "scripts", "images", "webp", "sprites", "fonts", "woff2", "favicons"]),
     gulp.parallel("serve"));
 
 export const prod = gulp.series("clean",
