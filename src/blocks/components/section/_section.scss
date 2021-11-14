@@ -1,4 +1,9 @@
 .section {
+    &__title {
+        font-family: "Montserrat-Bold", sans-serif;
+        font-size: 36px;
+        line-height: 44px;
+    }
     &__text {
         font-family: "Roboto", sans-serif;
         font-size: 24px;
