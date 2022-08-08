@@ -1,0 +1,89 @@
+.product-card {
+    width: 547px;
+    height: 417px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+    &__wrapper {
+        // border-bottom-left-radius: 30px;
+        // border-bottom-right-radius: 30px;
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 94px;
+
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__head {
+        margin-bottom: 20px;
+    }
+
+
+    &__title {
+        font-family: 'Montserrat-Medium';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__text {
+        font-family: 'Roboto-Regular';
+        font-size: 15px;
+        line-height: 18px;
+        max-width: 200px;
+    }
+
+
+
+    &__price-box {
+        font-family: 'Roboto-Regular';
+        margin-bottom: 30px;
+    }
+
+
+    &__price-title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 13px;
+    }
+
+
+    &__price-cost {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    &__button {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #EE6A09;
+        border: 0;
+        border-radius: 40px;
+        width: 213px;
+        height: 56px;
+        color:#FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+
+
+}
